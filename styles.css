@@ -1,0 +1,69 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pre-heading {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: #f8352e;
+  justify-content: space-around;
+}
+
+.left-part {
+  padding-top: 10px;
+}
+
+.offer {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+
+.right-part {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.right-part div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.right-part div i{
+    margin-right: .25rem;
+    color: white;
+}
+
+.right-part .email-id {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+
+.right-part .address {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+
+.right-part .phone-no {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+}
+
+.right-part .social-media-icons i{
+    cursor: pointer;
+    margin: 0% .3rem;
+}
