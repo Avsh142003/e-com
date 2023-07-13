@@ -1,10 +1,10 @@
-body {
-  padding: 0;
-  margin: 0;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
 .container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
@@ -37,15 +37,15 @@ body {
 }
 
 .right-part div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.right-part div i{
-    margin-right: .25rem;
-    color: white;
+.right-part div i {
+  margin-right: 0.25rem;
+  color: white;
 }
 
 .right-part .email-id {
@@ -61,76 +61,121 @@ body {
 }
 
 .right-part .phone-no {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: small;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
 }
 
-.right-part .social-media-icons i{
-    cursor: pointer;
-    margin: 0% .3rem;
+.right-part .social-media-icons i {
+  cursor: pointer;
+  margin: 0% 0.3rem;
 }
 
-.heading{
+.heading {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 0;
-  height:60px;
-  width:100%;
+  height: 60px;
+  width: 100%;
   /* background-color: yellow; */
 }
 
-.nav-bar{
-  display:flex;
+.nav-bar {
+  display: flex;
   list-style: none;
-  gap:33px;
+  gap: 33px;
   justify-content: space-around;
 }
 
-.nav-bar a{
+.nav-bar a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
 }
 
-.shop-name p{
-  margin:0;
+.nav-bar a:hover {
+  text-decoration: underline;
 }
 
-.shop-name .grocery{
+.shop-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shop-name .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.shop-name div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shop-name div p {
+  margin: 0%;
+  font-weight: 600;
+  width: 100%;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.shop-name div .grocery {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 0.8;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: rgb(49, 46, 46);
 }
 
-.shop-name .shopping{
+.shop-name div .shopping {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  text-align: right;
-  padding-right: 16px;
-  font-weight: 400;
-  color:red;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  color: red;
 }
 
-.search-bar{
-  width:300px;
-  border-radius:14px;
-  height:35px;
-  border:none;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
-  background-color:rgb(247, 237, 237);
-  padding-left:8px;
+.search-bar {
+  position: relative;
 }
 
-.cart-items{
+.search-bar i {
+  position: absolute;
+  top: 27.5%;
+  right: 5%;
+  color: gray;
+}
+
+.search-bar input {
+  width: 300px;
+  border-radius: 14px;
+  height: 35px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  padding-left: 8px;
+  outline: none;
+  padding: 0% 1rem;
+}
+
+.cart-items {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: medium;
-  font-style: normal;
-  
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.cart-items i {
+  color: #f8352e;
+}
+.cart-items span {
+  font-weight: 600;
+  font-size: 0.7r5em;
+  letter-spacing: 1.25px;
 }
