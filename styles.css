@@ -4,6 +4,8 @@ body {
 }
 
 .container {
+  display:flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,6 +17,7 @@ body {
   width: 100%;
   background-color: #f8352e;
   justify-content: space-around;
+  margin-bottom: 0;
 }
 
 .left-part {
@@ -66,4 +69,68 @@ body {
 .right-part .social-media-icons i{
     cursor: pointer;
     margin: 0% .3rem;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 0;
+  height:60px;
+  width:100%;
+  /* background-color: yellow; */
+}
+
+.nav-bar{
+  display:flex;
+  list-style: none;
+  gap:33px;
+  justify-content: space-around;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color:black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.shop-name p{
+  margin:0;
+}
+
+.shop-name .grocery{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.8;
+  color: rgb(49, 46, 46);
+}
+
+.shop-name .shopping{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 16px;
+  font-weight: 400;
+  color:red;
+}
+
+.search-bar{
+  width:300px;
+  border-radius:14px;
+  height:35px;
+  border:none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+  background-color:rgb(247, 237, 237);
+  padding-left:8px;
+}
+
+.cart-items{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  
 }
